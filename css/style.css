@@ -4,6 +4,7 @@
 
 body {
   background-image: url("../jj-ying-236821-unsplash.jpg");
+  background-size: 200%;
   font-family: sans-serif;
 }
 
@@ -13,7 +14,7 @@ h1 {
 
 a,
 a:visited {
-  color: seashell;
+  color: aliceblue;
   text-decoration: none;
 }
 header {
@@ -21,6 +22,14 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 10px;
+}
+
+article {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 18px;
 }
 
 .navigation {
@@ -45,5 +54,46 @@ header {
 }
 
 .profile-pic {
-  width: 50%;
+  width: 100%;
+}
+
+.section-welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.section-skill-interests {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.block-1 {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 750px) {
+  .block-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+  }
+}
+
+.skill__tag-list {
+  list-style: none;
+}
+
+.skill__tag-list li {
+  padding: 10px;
+  display: inline-block;
+  background: lightskyblue;
+  border-radius: 5px;
+  color: aliceblue;
+  margin-bottom: 10px;
 }
