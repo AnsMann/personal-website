@@ -11,19 +11,14 @@
     <header id="home">
       <h1>Ansgar Reimann</h1>
       <nav class="navigation">
-        <a class="navigation-list" href="http://127.0.0.1:5500/index.html#home"
-          >Home</a
-        >
+        <a class="navigation-list link__blue"
+          href="#home">Home</a>
         <a
-          class="navigation-list"
-          href="http://127.0.0.1:5500/index.html#contact"
-          >Kontakt</a
-        >
+          class="navigation-list link__blue"
+          href="#contact">Kontakt</a>
         <a
-          class="navigation-list"
-          href="http://127.0.0.1:5500/index.html#aboutme"
-          >Biografie</a
-        >
+          class="navigation-list link__blue"
+          href="#aboutme">Biografie</a>
       </nav>
     </header>
     <div class="block-1">
@@ -32,8 +27,8 @@
           class="profile-pic"
           src="https://uonnya.sn.files.1drv.com/y4mOi2pzsUlKByyB1nbRfkLwnZcM7e5HLwuymgGs0mE_-71A9u-ArCY-L5R2l04CQfakPDOKw7C2Eg83-OIbnU9rzizAi0bkgraSL4QDHT0K83Vi2N0rM8kOy2iScsm1XQuZgW_nieQFESAulPgnaTZcUoj0x7UJ6Dg4R77GBOC2lPdY02a9qLvQBD618JxarxRKoKi5XuLEbdtBs2WPQgrgw?width=1024&height=682&cropmode=none"
           alt="Bild
-                von Ansgar Reimann"
-        />
+          von Ansgar Reimann"
+          />
         <h4>Hallo und Moin</h4>
         <article>
           Als Neu-Hamburger und neuer Fisch begrüße ich euch auf meiner ersten
@@ -52,8 +47,8 @@
             <li>HTML</li>
             <li>Bootstrap</li>
             <li>Emmet</li>
-            <li>Soon: CSS/SCSS</li>
-            <li>Soon: JavaScript</li>
+            <li>CSS/SCSS</li>
+            <li>JavaScript</li>
             <li>Soon: React</li>
           </ul>
         </list>
@@ -72,149 +67,156 @@
         </list>
       </section>
     </div>
-    <section id="contact">
-      <h3>Contact me:</h3>
+    <section id="contact" class="section-contact">
+      <h3 class="contact__h3">Contact me:</h3>
       <h3>Phone</h3>
-      <a href="tel:+4915124062234"><u>0151/24062234</u></a>
+      <a class="link__blue" href="tel:+4915124062234"><u>0151/24062234</u></a>
       <h3>E-Mail</h3>
-      <a href="mailto:ansgar.reimann@protonmail.com">
+      <a class="link__blue" href="mailto:ansgar.reimann@protonmail.com">
         <u>ansgar.reimann@protonmail.com</u>
       </a>
     </section>
-    <header>Find me on</header>
-    <section id="teaser">
+    <h3>Find me on</h3>
+    <section id="teaser" class="section-findme">
       <figure>
         <a href="https://codepen.io/ansmann/">
           <img
             src="codepen-logo.png"
             alt="Codepen logo"
             style="max-width: 120px"
-          />
+            />
         </a>
         <figcaption>
-          <a href="https://codepen.io/ansmann/">CodePen</a>
+          <a class="link__grey" href="https://codepen.io/ansmann/">CodePen</a>
         </figcaption>
       </figure>
       <figure>
-        <a href="https://github.com/AnsMann/"
-          ><img class="mb-1" src="GitHub-Mark-120px-plus.png" alt="github logo"
-        /></a>
+        <a href="https://github.com/AnsMann/"><img class="mb-1"
+            src="GitHub-Mark-120px-plus.png" alt="github logo"
+            /></a>
 
-        <figcaption class="d-flex justify-content-center">
-          <a class="text-dark" href="https://github.com/AnsMann/">GitHub</a>
+        <figcaption>
+          <a class="link__grey" href="https://github.com/AnsMann/">GitHub</a>
         </figcaption>
       </figure>
       <figure>
-        <a href="https://www.xing.com/profile/Ansgar_Reimann"
-          ><img
+        <a href="https://www.xing.com/profile/Ansgar_Reimann"><img
             class="mb-1"
             src="xing-logo-black-white.png"
             alt="XING"
             style="max-width: 120px"
-        /></a>
+            /></a>
 
         <figcaption>
-          <a href="https://www.xing.com/profile/Ansgar_Reimann">XING</a>
+          <a class="link__grey"
+            href="https://www.xing.com/profile/Ansgar_Reimann">XING</a>
         </figcaption>
       </figure>
     </section>
-    <h2 id="aboutme">About me</h2>
-    <section>
-      <ul>
-        <li>
-          Geboren am 24.04.1987 in Berlin
-        </li>
-        <li>verheiratet, 2 Kinder</li>
-      </ul>
-      <article>
-        Es gibt sie doch: <strong>Sportliche Nerds</strong>. Ich liebe es Sport
-        zu treiben um mich mit anderen zu messen aber auch immer stärker als
-        Ausgleich zum alltäglichen Leben. Parallel hatte ich schon immer eine
-        gewisse <em>"Nerd-Ader"</em> die sich für allerlei Computerthematiken,
-        Videospiele und Smartphonetechnik interessiert. Beruflich bedingt kam
-        dann der Faktor Internet und Programmierung immer stärker dazu und damit
-        der Wunsch Dinge selber zu erschaffen und zu verändern. Mein Weg führte
-        mich also ins Bootcamp um ein
-        <a href="https://www.neuefische.de/">neuer Fisch</a>
-        zu werden.
-      </article>
+    <section class="section-aboutme">
+      <div class="aboutme">
+        <h2 id="aboutme">About me</h2>
+        <section>
+          <ul>
+            <li>
+              Geboren am 24.04.1987 in Berlin
+            </li>
+            <li>verheiratet, 2 Kinder</li>
+          </ul>
+          <article>
+            Es gibt sie doch: <strong>Sportliche Nerds</strong>. Ich liebe es
+            Sport
+            zu treiben um mich mit anderen zu messen aber auch immer stärker als
+            Ausgleich zum alltäglichen Leben. Parallel hatte ich schon immer
+            eine
+            gewisse <em>"Nerd-Ader"</em> die sich für allerlei
+            Computerthematiken,
+            Videospiele und Smartphonetechnik interessiert. Beruflich bedingt
+            kam
+            dann der Faktor Internet und Programmierung immer stärker dazu und
+            damit
+            der Wunsch Dinge selber zu erschaffen und zu verändern. Mein Weg
+            führte
+            mich also ins Bootcamp um ein
+            <a class="link__grey" href="https://www.neuefische.de/">neuer Fisch</a>
+            zu werden.
+          </article>
+        </section>
+      </div>
+      <div class="section-aboutme__education">
+        <h2 id="education">Bildungsweg</h2>
+        <list>
+          <ul class="aboutme__list">
+            <li>
+              <h4>Seit März 2019</h4>
+              Neue Fische GmbH: Web Developer
+              Bootcamp
+            </li>
+            <li>
+              <h4>April 2015 - November 2015</h4>
+              TU Darmstadt: Master of Arts Sportmanagement o. Abschluss
+            </li>
+            <li>
+              <h4>März 2016</h4>Veröffentlichung: Journal of Sport
+              Sciences,
+              Volume 35, 2017
+            </li>
+            <li>
+              <h4>April 2008 - Oktober 2014</h4>TU Kaiserslautern:
+              Bachelor
+              &
+              Master of Education Sport/Sozialkunde/Bildungswissenschaften
+            </li>
+            <li>
+              <h4>April 2007 - März 2008</h4>TU Kaiserslautern: Bachelor
+              of
+              Science Informatik o. Abschluss
+            </li>
+          </ul>
+        </list>
+      </div>
+      <div>
+        <h2 id="cv">Berufliche Laufbahn</h2>
+        <list>
+          <ul class="aboutme__list">
+            <li>
+              <h4>Januar 2019 - März 2019</h4>Zeit mit der Familie
+              verbringen
+
+            </li>
+            <li>
+              <h4>April 2018 - Dezember 2018</h4>E-Commerce Manager Fon3
+              GmbH
+
+            </li>
+            <li> <h4>Februar 2018 - April 2018</h4>Arbeit suchend
+
+            </li>
+            <li>
+              <h4>November 2015 - Januar 2018</h4>E-Commerce Manager
+              Genuine
+              Peak Sarl
+
+            </li>
+            <li>
+              <h4>April 2015 - November 2015</h4>Nachwuchsscout 1. FC
+              Kaiserslautern GmbH & Co. KGaA
+
+            </li>
+            <li>
+              <h4>Oktober 2014 - Oktober 2015</h4>Plattform Manager
+              DAW/DTW
+              Logstocks GmbH
+
+            </li>
+            <li>
+              <h4>Oktober 2011 - März 2015</h4>Trainer
+              Nachwuchsleistungszentrum 1. FC Kaiserslautern GmbH & Co. KGaA
+            </li>
+          </ul>
+        </list>
+      </div>
     </section>
-    <h2 id="education">Bildungsweg</h2>
-    <list>
-      <ul>
-        <li>
-          <small>
-            <b>Seit März 2019</b> <br />Neue Fische GmbH: Web Developer Bootcamp
-          </small>
-        </li>
-        <li>
-          <small>
-            <b>April 2015 - November 2015</b><br />TU Darmstadt: Master of Arts
-            Sportmanagement o. Abschluss
-          </small>
-        </li>
-        <li>
-          <small>
-            <b>März 2016</b><br />Veröffentlichung: Journal of Sport Sciences,
-            Volume 35, 2017
-          </small>
-        </li>
-        <li>
-          <small>
-            <b>April 2008 - Oktober 2014</b><br />TU Kaiserslautern: Bachelor &
-            Master of Education Sport/Sozialkunde/Bildungswissenschaften
-          </small>
-        </li>
-        <li>
-          <small>
-            <b>April 2007 - März 2008</b><br />TU Kaiserslautern: Bachelor of
-            Science Informatik o. Abschluss
-          </small>
-        </li>
-      </ul>
-    </list>
-    <h2 id="cv">Berufliche Laufbahn</h2>
-    <list>
-      <ul>
-        <li>
-          <small>
-            <b>Januar 2019 - März 2019</b> <br />Zeit mit der Familie verbringen
-          </small>
-        </li>
-        <li>
-          <small>
-            <b>April 2018 - Dezember 2018</b> <br />E-Commerce Manager Fon3 GmbH
-          </small>
-        </li>
-        <li>
-          <small> <b>Februar 2018 - April 2018</b> <br />Arbeit suchend </small>
-        </li>
-        <li>
-          <small>
-            <b>November 2015 - Januar 2018</b> <br />E-Commerce Manager Genuine
-            Peak Sarl
-          </small>
-        </li>
-        <li>
-          <small>
-            <b>April 2015 - November 2015</b> <br />Nachwuchsscout 1. FC
-            Kaiserslautern GmbH & Co. KGaA
-          </small>
-        </li>
-        <li>
-          <small>
-            <b>Oktober 2014 - Oktober 2015</b> <br />Plattform Manager DAW/DTW
-            Logstocks GmbH
-          </small>
-        </li>
-        <li>
-          <small>
-            <b>Oktober 2011 - März 2015</b> <br />Trainer
-            Nachwuchsleistungszentrum 1. FC Kaiserslautern GmbH & Co. KGaA
-          </small>
-        </li>
-      </ul>
-    </list>
     <hr />
     <footer><small>&copy; 2019 AnsMann</small></footer>
   </body>
