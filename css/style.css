@@ -26,6 +26,11 @@ h1 {
   color: darkgrey;
 }
 
+.link__blue:hover,
+.link__grey:hover {
+  color: cornflowerblue;
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -52,6 +57,10 @@ header {
   height: 30px;
   background: darkgrey;
   border-radius: 5px;
+}
+
+.navigation-list:hover {
+  background: black;
 }
 
 .profile-pic {
@@ -97,6 +106,10 @@ header {
   border-radius: 5px;
   color: aliceblue;
   margin-bottom: 10px;
+}
+
+.skill__tag-list li:hover {
+  background: yellowgreen;
 }
 
 @media screen and (min-width: 650px) {
@@ -152,10 +165,7 @@ figcaption {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.75fr 1fr;
-    grid-gap: 5px;
-  }
-  .aboutme {
-    grid-row: span 2;
+    grid-gap: 20px;
   }
 }
 
@@ -170,6 +180,7 @@ figcaption {
 .aboutme__list li {
   text-overflow: ellipsis;
   overflow: hidden;
+  padding-bottom: 5px;
 }
 
 .aboutme__list li h4 {
@@ -177,7 +188,6 @@ figcaption {
 }
 
 .aboutme__list li:nth-child(2n) {
-  background: ;
   border-top: 0.5px solid lightgray;
   border-bottom: 0.5px solid lightgray;
   background-color: rgba(100, 100, 100, 0.1);
