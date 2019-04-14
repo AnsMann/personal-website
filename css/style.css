@@ -99,18 +99,24 @@ header {
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 650px) {
   .section-contact {
-    border: 1px solid;
+    width: 70%;
     grid-gap: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 50px 50px;
+    grid-template-rows: 50px 50px;
     align-items: center;
-    justify-items: center;
+    justify-items: flex-start;
+    padding: 0 20px;
+    margin: 0 auto;
   }
-  .contact__h3 {
-    grid-column: span 2;
+}
+
+@media screen and (max-width: 650px) {
+  .section-contact {
+    padding: 10px 20px;
+    margin: 0 auto;
   }
 }
 
@@ -118,6 +124,9 @@ header {
   margin-bottom: 10px;
   background-color: darkgrey;
   border-radius: 5px;
+  border: 1px solid;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 400px) {
@@ -143,7 +152,7 @@ figcaption {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.75fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 5px;
   }
   .aboutme {
     grid-row: span 2;
@@ -158,6 +167,10 @@ figcaption {
   list-style: none;
   font-size: 16px;
 }
+.aboutme__list li {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 
 .aboutme__list li h4 {
   margin: 5px 0;
@@ -168,4 +181,9 @@ figcaption {
   border-top: 0.5px solid lightgray;
   border-bottom: 0.5px solid lightgray;
   background-color: rgba(100, 100, 100, 0.1);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
